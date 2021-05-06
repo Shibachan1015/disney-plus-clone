@@ -6,19 +6,19 @@ function Viewers() {
     return (
         <Container>
             <Wrap>
-                <img src="/images/viewers-disney.png" alt="" />
+                <img src="/images/viewers-disney.png" alt=/>
             </Wrap>
             <Wrap>
-                <img src="/images/viewers-disney.png" alt="" />
+                <img src="/images/viewers-disney.png" />
             </Wrap>
             <Wrap>
-                <img src="/images/viewers-disney.png" alt="" />
+                <img src="/images/viewers-disney.png" />
             </Wrap>
             <Wrap>
-                <img src="/images/viewers-disney.png" alt="" />
+                <img src="/images/viewers-disney.png" />
             </Wrap>
             <Wrap>
-                <img src="/images/viewers-disney.png" alt="" />
+                <img src="/images/viewers-disney.png" />
             </Wrap>
         </Container>
     );
@@ -30,7 +30,7 @@ const Container = styled.div`
     margin-top: 30px;
     display: grid;
     grid-gap: 25px;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-colums: repeat(5, minmax(0, 1fr));
 
 `
 const Wrap = styled.div`
