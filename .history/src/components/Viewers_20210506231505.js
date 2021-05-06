@@ -9,16 +9,16 @@ function Viewers() {
                 <img src="/images/viewers-disney.png" alt="" />
             </Wrap>
             <Wrap>
-                <img src="/images/viewers-pixar.png" alt="" />
+                <img src="/images/viewers-disney.png" alt="" />
             </Wrap>
             <Wrap>
-                <img src="/images/viewers-marvel.png" alt="" />
+                <img src="/images/viewers-disney.png" alt="" />
             </Wrap>
             <Wrap>
-                <img src="/images/viewers-starwars.png" alt="" />
+                <img src="/images/viewers-disney.png" alt="" />
             </Wrap>
             <Wrap>
-                <img src="/images/viewers-national.png" alt="" />
+                <img src="/images/viewers-disney.png" alt="" />
             </Wrap>
         </Container>
     );
@@ -50,8 +50,8 @@ const Wrap = styled.div`
 
     &:hover {
     box-shadow: rgb(0 0 0 / 80%) 0px 40px 58px -16px,
-        rgb(0 0 0 / 72%) 0px 30px 22px -10px;
+      rgb(0 0 0 / 72%) 0px 30px 22px -10px;
     transform: scale(1.05);
     border-color: rgba(249, 249, 249, 0.8);
-    }
+  }
 `;

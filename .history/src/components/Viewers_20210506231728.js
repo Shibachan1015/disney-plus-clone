@@ -18,7 +18,7 @@ function Viewers() {
                 <img src="/images/viewers-starwars.png" alt="" />
             </Wrap>
             <Wrap>
-                <img src="/images/viewers-national.png" alt="" />
+                <img src="/images/viewers-natin.png" alt="" />
             </Wrap>
         </Container>
     );

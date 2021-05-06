@@ -15,10 +15,10 @@ function Viewers() {
                 <img src="/images/viewers-marvel.png" alt="" />
             </Wrap>
             <Wrap>
-                <img src="/images/viewers-starwars.png" alt="" />
+                <img src="/images/viewers-.png" alt="" />
             </Wrap>
             <Wrap>
-                <img src="/images/viewers-national.png" alt="" />
+                <img src="/images/viewers-disney.png" alt="" />
             </Wrap>
         </Container>
     );
