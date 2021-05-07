@@ -1,0 +1,27 @@
+import React from 'react'
+import styled from 'styled-components'
+
+
+function Login() {
+    return (
+        <Container>
+            Login
+        </Container>
+    )
+}
+
+export default Login
+
+
+const Container = styled.div`
+    position: relative;
+    height: calc(100vh - 70px);
+
+    &:before {
+        position: absolute;
+        content: 
+        top: 0;
+        bottom: 0;
+    }
+
+`
