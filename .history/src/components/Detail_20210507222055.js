@@ -112,6 +112,6 @@ const AddButton = styled.button`
         color: white;
     }
 `
-const GroupWatchButton = styled(AddButton)`
-    background: rgb(0, 0, 0);
+const GroupWatchButton = styled()`
+
 `

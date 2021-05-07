@@ -12,18 +12,18 @@ function Detail() {
             </ImageTitle>
             <Controls>
                 <PlayButton>
-                    <img src="/images/play-icon-black.png" alt=""/>
+                    <img src="/images/play-icon-black.png" />
                     <span>PLAY</span>
                 </PlayButton>
                 <TrailerButton>
-                    <img src="/images/play-icon-white.png" alt=""/>
+                    <img src="/images/play-icon-white.png" />
                     <span>Trailer</span>
                 </TrailerButton>
                 <AddButton>
-                    <span>+</span>
+                    
                 </AddButton>
                 <GroupWatchButton>
-                    <img src="/images/group-icon.png" alt=""/>
+
                 </GroupWatchButton>
             </Controls>
         </Container>
@@ -70,7 +70,7 @@ const ImageTitle = styled.div`
 
 const Controls = styled.div`
     display: flex;
-    align-items: center;
+
 `
 const PlayButton = styled.button`
     border-radius: 4px;
@@ -93,25 +93,15 @@ const TrailerButton = styled(PlayButton)`
     background: rgba(0, 0, 0, 0.3);
     border: 1px solid rgb(249, 249, 249);
     color: rgb(249, 249, 249);
-    text-transform: uppercase;
 `
 const AddButton = styled.button`
-    margin-right: 16px;
     width: 44px;
     height: 44px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    border: 2px solid white;
-    background-color: rgba(0, 0, 0, 0.6);
-    cursor: pointer;
-
     span {
-        font-size: 30px;
-        color: white;
+        font-size: 30
     }
 `
-const GroupWatchButton = styled(AddButton)`
-    background: rgb(0, 0, 0);
+const GroupWatchButton = styled.button`
+
 `

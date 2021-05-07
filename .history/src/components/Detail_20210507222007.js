@@ -20,7 +20,7 @@ function Detail() {
                     <span>Trailer</span>
                 </TrailerButton>
                 <AddButton>
-                    <span>+</span>
+                    <span></span>
                 </AddButton>
                 <GroupWatchButton>
                     <img src="/images/group-icon.png" alt=""/>
@@ -112,6 +112,6 @@ const AddButton = styled.button`
         color: white;
     }
 `
-const GroupWatchButton = styled(AddButton)`
-    background: rgb(0, 0, 0);
+const GroupWatchButton = styled.button`
+
 `
