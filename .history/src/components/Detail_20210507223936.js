@@ -132,5 +132,5 @@ const Description = styled.div`
     line-height: 1.4;
     font-size: 20px;
     margin-top: 16px;
-    color: rgb(249, 249, 249);
+    
 `
