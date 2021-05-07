@@ -26,7 +26,7 @@ const Container = styled.div`
     position: relative;
     height: calc(100vh - 70px);
     display: flex;
-    align-items: top;
+    align-items: ;
     justify-content: center;
     
 
@@ -53,8 +53,6 @@ const CTA = styled.div`
     display: flex;
     flex-direction: column;
     margin-top: 100px;
-    align-items: center;
-
 
 `
 const CTALogoOne = styled.img`
@@ -88,6 +86,5 @@ const Description = styled.p`
     line-height: 1.5;
 `
 const CTALogoTwo = styled.img`
-    width: 90%;
 
 `
